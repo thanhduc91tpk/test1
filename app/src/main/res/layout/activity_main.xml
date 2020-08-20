@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APP CHỌN NGƯỜI YÊU"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đang phân vân ah? Điền thông tin vào danh sách bên dưới mình lựa chọn giúp cho!"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="30sp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/txtTen1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="ten"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/edtTuoi1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="tuoi"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="30sp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/txtTen2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:hint="ten"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/edtTuoi2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:hint="tuoi"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="30sp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/txtTen3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:hint="ten"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/edtTuoi3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:hint="tuoi"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="30sp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/txtTen4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:hint="ten"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/edtTuoi4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:hint="tuoi"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="30sp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/txtTen5"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:hint="ten"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/edtTuoi5"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:hint="tuoi"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btnChon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chon"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnNhapLai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nhap lai"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="thoat"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
